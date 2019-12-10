@@ -127,8 +127,8 @@ async def amireallyalive(alive):
                      f"➡️Telethon  : `{version.__version__}` \n"
                      f"➡️Python    : `{python_version()}` \n"
                      f"➡️Name      : `𝓜𝓗𝓜𝓓𝓕𝓙𝓡𝓜𝓛𝓝 | 𝓘𝓜` (@mhmdfjrmln) \n\n"
-                     f"➡️Moto      : `Reality is only an illusion \n
-                                      People live in assumptions`"
+                     f"➡️Moto      : `Reality is only an illusion \n"
+                     f"               People  live in assumptions`"
                      )
 
 
