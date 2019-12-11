@@ -74,8 +74,8 @@ async def gdrive_upload_function(dryb):
             speed = downloader.get_speed()
             elapsed_time = round(diff) * 1000
             progress_str = "[{0}{1}] {2}%".format(
-                ''.join(["▰" for i in range(math.floor(percentage / 10))]),
-                ''.join(["▱"
+                ''.join(["🔃" for i in range(math.floor(percentage / 10))]),
+                ''.join(["🔄"
                          for i in range(10 - math.floor(percentage / 10))]),
                 round(percentage, 2))
             estimated_total_time = downloader.get_eta(human=True)
